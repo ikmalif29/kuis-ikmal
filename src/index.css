@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div{
+  width: 70%;
+  height: auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 50px;
+  gap: 20px;
+}
+
+img{
+  width: 50%;
+  border-radius: 50%;
+}
